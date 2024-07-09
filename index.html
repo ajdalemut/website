@@ -15,11 +15,17 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-    <style> 
-      .right-image { 
-          float: right; 
-      } 
-    </style>
+    <style>
+      .container {
+          display: flex;
+          align-items: flex-start;
+      }
+      .container img {
+          width: 300px; /* Adjust the width as needed */
+          margin-right: 20px; /* Space between image and text */
+      }
+  </style>
+
   </head>
 
   <body>
@@ -40,12 +46,22 @@
 <div class="page-content inset">     
 <div class="header">
   <h1>Ajda Lemut Furlani </h1> 
-  
-  <img src="img1.png" alt=""> 
-  <a href="http://www.imfm.si/">Institute of Mathematics, Physics and Mechanics in Ljubljana</a> &
-  <a href="https://www.fmf.uni-lj.si/en/"> University of Ljubljana, Faculty of Mathematics and Physicst</a>   </h4>
-  <a href="CV_web.pdf" download>My Curriculum Vitae</a>
-  </p>E-mail: ajda.lemut@imfm.si<p> 
+
+ <div class="container">
+        <img src="img1.png" alt="Description of the image">
+        <div>
+            <p>
+                <a href="http://www.imfm.si/">Institute of Mathematics, Physics and Mechanics in Ljubljana</a> &amp;
+                <a href="https://www.fmf.uni-lj.si/en/">University of Ljubljana, Faculty of Mathematics and Physics</a>
+            </p>
+            <p>
+                <a href="CV_web.pdf" download>My Curriculum Vitae</a>
+            </p>
+            <p>
+                E-mail: <a href="mailto:ajda.lemut@imfm.si">ajda.lemut@imfm.si</a>
+            </p>
+        </div>
+    </div>
 
 
 <div class="row">
